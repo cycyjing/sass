@@ -1,0 +1,12 @@
+@mixin color-font($color,$font){
+  color:$color;//文字颜色
+  &:hover{/*悬浮字体颜色*/
+    font-size: $font;
+  }
+}
+body {
+  background: rebeccapurple;
+}
+h1{
+  @include color-font(blue,60px)
+}

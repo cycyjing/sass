@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+  background: rebeccapurple; }
+
+h1 {
+  color: blue; }
+  h1:hover {
+    /*悬浮字体颜色*/
+    font-size: 60px; }
+
+/*# sourceMappingURL=index.css.map */
